@@ -1,6 +1,6 @@
 <apex:page controller="ChatterCanvasSignedRequestController" showHeader="false" sidebar="false">
   
   <a href="https://azusgb01--cms.na10.visual.force.com/apex/Main?sname=Intranet&name=featureDetailPage&content_id=a0mF000000GCitTIAT#/" target="_blank"><img src="https://media.giphy.com/media/l482bpGIwykSI/giphy.gif" alt="alt text" style="border:none;" /></a>
-  <h1>2015 - Our Incedible Journey</h1>
-    <p>Well it’s been quite a year! Here’s your chance to relive the highlights of 2015 in our special Heartbeat end of year review. We look back at the key milestones of the year through the lens of our three priorities – Achieving Scientific Leadership, Return to Growth and a Great Place to Work.   Hear from colleagues around the world about their own personal highlights and why they’re ready for the challenge of 2016.&nbsp;<a href="https://azusgb01--cms.na10.visual.force.com/apex/Main?sname=Intranet&name=featureDetailPage&content_id=a0mF000000GCitTIAT#/" target="_blank">Read full article on Nucleus...</a></p>
+  <h1>Thank you!</h1>
+    <p>Woohoo!</p>
 </apex:page>
