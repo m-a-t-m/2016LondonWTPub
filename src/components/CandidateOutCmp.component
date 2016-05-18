@@ -1,0 +1,15 @@
+<apex:component >
+    <apex:includeScript value="/lightning/lightning.out.js" />
+<div id="lightning" />
+
+    <script>
+        $Lightning.use("c:CandidateOutApp", function() {
+          $Lightning.createComponent("yourNamespace:CandidateCarousel",
+          { label : "" },
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+    </script>
+</apex:component>

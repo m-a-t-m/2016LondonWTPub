@@ -1,0 +1,36 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <apex:includeLightning />
+    <html>
+        <head>
+            <!-- UA-56039795-1 -->
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-72967252-1', 'auto');
+            ga('send', 'pageview');
+            console.log('GOOGLE ANALYTICS RUN ' + window.location.href);
+            </script>
+            
+        </head>
+        <body>
+            <div class="slds"> 
+                <div class="slds-grid">
+                    <div id="Stopwatch" class="slds-col" style="width:48%; align:right;"/>
+                    <div id="ChatterStats" class="slds-col" style="width:48%; align:left;"/>
+                </div>    
+                <script>
+                $Lightning.use("c:ChatterPublisherAnalyticsOut", function() {
+                    $Lightning.createComponent("c:Stopwatch",
+                                               {},
+                                               "Stopwatch",
+                                               function(cmp) {
+                                                   // do some stuff
+                                               });
+                });
+                </script>
+            </div>
+        </body>
+    </html>
+</apex:page>

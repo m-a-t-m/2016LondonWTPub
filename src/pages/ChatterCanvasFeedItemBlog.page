@@ -1,0 +1,9 @@
+<apex:page controller="ChatterCanvasSignedRequestController" showHeader="false" sidebar="false">
+  
+  <a href="https://technologyflows.com/2015/10/07/podcast-thunder-and-lightning-with-peter-coffee/" target="_blank"><img src="https://technologyflows.files.wordpress.com/2015/10/petercoffeeiot.png?w=180&h=75" alt="alt text" style="border:none;" /></a>
+  <h1>Podcast : Thunder and Lightning with Peter Coffee</h1>
+    <p>This week I have for you a conversation with Peter Coffee who is the Vice President for Strategic Research at Salesforce.
+
+Many of you will recognise Peter as the host of pre-keynote conversations at many Salesforce events. I think I am right in saying that it is his voice which announces every keynote session at Dreamforce, which he has to pre-record in the run up to the conference.
+        <a href="https://technologyflows.com/2015/10/07/podcast-thunder-and-lightning-with-peter-coffee/" target="_blank">Read full article on TechnologyFlows...</a></p>
+</apex:page>

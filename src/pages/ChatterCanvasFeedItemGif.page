@@ -1,0 +1,5 @@
+<apex:page controller="ChatterCanvasSignedRequestController" showHeader="false" sidebar="false">
+  
+  <img src="http://i.giphy.com/26BkNrGhy4DKnbD9u.gif" alt="alt text" style="border:none;" />
+  <h1>GIF</h1>
+</apex:page>

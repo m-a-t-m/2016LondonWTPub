@@ -1,0 +1,15 @@
+<apex:page sidebar="false" standardController="Contact">
+<apex:includeScript value="/lightning/lightning.out.js" />
+<div id="lightning" style="border-style:solid;" />
+
+    <script>
+        $Lightning.use("c:CandidateOutApp", function() {
+          $Lightning.createComponent("c:CandidateCarousel",
+          { label : "" },
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+    </script>
+</apex:page>
